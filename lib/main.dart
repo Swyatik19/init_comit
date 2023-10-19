@@ -12,7 +12,14 @@ class MyApp extends StatelessWidget {
           title: const Text('Plugin example app'),
         ),
         body: const Center(
-          child: Text('Hello World'),
+          child: Column(
+            children: [
+              Text('Hello World'),
+              Text('Hello World'),
+              Text('Hello World'),
+              Text('Hello World'),
+            ],
+          ),
         ),
       ),
     );
